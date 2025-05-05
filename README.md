@@ -22,13 +22,13 @@ Given 45–60 sec `.wav` files, predict grammar accuracy scores based on sentenc
 ## 🏋️ Training
 - Loss: MSELoss  
 - Optimizer: Adam  
-- Batch size: 1 (due to sequence length & model size)  
-- Epochs: 5  
+- Batch size: 2 (due to sequence length & model size)  
+- Epochs: 6
 
 ## 📤 Output
 Generates `submission.csv` with predicted grammar scores for test audio.
 
 ## 🙏 Credits
-- Towards Data Science
-- ChatGPT (Free Version)
-- Perplexity AI
+- Towards Data Science for articles
+- ChatGPT (Free Version) for dealing with all the errors.
+- Perplexity AI for research.
